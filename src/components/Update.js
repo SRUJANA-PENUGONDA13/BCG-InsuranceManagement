@@ -19,7 +19,6 @@ class Update extends React.Component {
     );
     this.setState({ displayStatus: "inactive" });
     this.setState({ outputMsg: "Data Updated Successfully" });
-    window.location.href("/");
   };
   updateDetails = (value, name) => {
     var items = this.state.data;

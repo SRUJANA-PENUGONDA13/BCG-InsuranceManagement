@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
 import { Link } from "react-router-dom";
 import insuranceManagementAPI from "./apis/insuranceManagementAPI";
 import "./App.css";
@@ -104,6 +103,15 @@ class Home extends React.Component {
                   ))}
                 </tbody>
               </table>
+            </div>
+            <div>
+              <Link
+                to={{
+                  pathname: "/chart/",
+                }}
+              >
+                View No.of Policies purchased in each month
+              </Link>
             </div>
           </main>
         </center>

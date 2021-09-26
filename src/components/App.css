@@ -74,6 +74,13 @@ p
 {
     font-size: 14px;
 }
+.barChart
+{
+    width: 800px !important;
+    height: 400px !important;
+    margin-top: 50px;
+}
+
 input
 {
     font-size: 14px;
