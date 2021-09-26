@@ -1,0 +1,118 @@
+body
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav
+{
+    height: 10vh;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: x-large;
+    color: white;
+    background-color: gray;
+}
+main
+{
+    height: 78vh;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+.policySearch
+{
+    margin-top: 2em;
+}
+select
+{
+    margin-right: 30px;
+}
+.policyHeader
+{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    position: sticky;
+    top: 0;
+}
+
+.policyDetails
+{
+    margin-top: 25px;
+    width: 200px;
+    margin-left: 130px;
+}
+.policyUpdate
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.tableBody
+{
+    overflow: scroll;
+    display: block;
+    max-width: 80vw;
+    max-height: 50vh;
+}
+.updatePolicyDetails
+{
+    margin-left: 100px;
+}
+.label {
+    padding: 0.4rem 0rem 1rem;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+p
+{
+    font-size: 14px;
+}
+input
+{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 0.4rem 1rem;
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 170px;
+}
+.updateBtn
+{
+    background: gray;
+    border: none;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+.active
+{
+    display: block;
+}
+.inactive
+{
+    display: none;
+}
+
+footer
+{
+    height: 10vh;
+    background-color: gray;
+}
+
+
+
